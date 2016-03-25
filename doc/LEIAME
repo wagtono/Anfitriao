@@ -1,0 +1,8 @@
+
+# Instalando pacotes do servidor...
+
+apt-get update
+apt-get install apache2
+apt-get install php5
+apt-get install php5-mysql
+/etc/init.d/apache2/ restart

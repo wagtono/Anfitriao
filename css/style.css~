@@ -1,0 +1,44 @@
+
+	#qr-canvas{
+		display:none;
+	}
+
+	#outdiv{
+		width:100%;
+		height:100%;
+	}
+
+	#v{
+		width:100%;
+		height:100%;z
+	}
+
+	@media screen and (max-width: 200px){
+		
+		#outdiv{
+			width:100%;
+		height:100%;
+		}
+		
+	    #v{
+			width:100%;
+		height:100%;
+		}
+		
+		@media screen and (max-device-width: 200px) 
+	              and (orientation:portrait){
+	  
+			#outdiv{
+				width:100%;
+		height:100%;
+
+			}
+			
+		    #v{
+				width:100%;
+		height:100%;
+			}
+		
+		}
+
+	}
